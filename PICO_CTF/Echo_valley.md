@@ -1,4 +1,4 @@
-# [CTF/Target] - [Name_Challenge] ([Category])
+# [CTF] - [Echo_Valley]
 
 > **Meta Info**
 > - **Author:** Hoan (KMA)
@@ -61,7 +61,7 @@ pwndbg> stack 20
 - Sau đó dùng công cụ `fmtstr_payload` để có thể ghi đè vào nội dung mà con trỏ đang trỏ tới , con trỏ tôi nhắm tới là địa chỉ stack của RIP , cú pháp của `fmtstr_payload` :
 ```
 fmtstr_payload(offset,{target_addr: value},write_size)
--> offset = nơi chứa dữ liệu tính từ rsp rồi + 5
+-> offset = bạn nhập AAA rồi 1 đống %p , đếm chuỗi AAA in ra thứ bao nhiêu thì đó là offset
 -> target_addr = địa chỉ con trỏ muốn ghi value vào
 -> write_size = 'byte' muốn in từng phần to , 'short' in phần nhỏ
 ```
