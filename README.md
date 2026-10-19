@@ -1,1 +1,1 @@
-Các bài ctf mảng pwn mà mình đã giải và tự viết write-up 
+Các bài ctf mảng pwn mà mình đã giải và xem nó thực sự cần giải thích hoặc xem lại  
