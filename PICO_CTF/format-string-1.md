@@ -13,7 +13,6 @@
 - **File nhận được:** `format-string-1`, `format-string-1.c`
 - **Kết quả checksec:**
   ```bash
-  [*] '/home/nguyenngochoan/picoctf/valley'
       Arch:     amd64-64-little
       RELRO:    Partial RELRO
       Stack:    No Canary found

@@ -13,7 +13,6 @@
 - **File nhận được:** `Valley`, `Valley.c`
 - **Kết quả checksec:**
   ```bash
-  [*] '/home/nguyenngochoan/picoctf/valley'
       Arch:     amd64-64-little
       RELRO:    Full RELRO
       Stack:    Canary found

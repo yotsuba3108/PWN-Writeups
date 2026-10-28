@@ -13,7 +13,6 @@
 - **File nhận được:** `format-string-3`, `format-string-3.c` ,` ld-linux-x86-64.so.2` , `libc.so.6`
 - **Kết quả checksec:**
   ```bash
-  [*] '/home/nguyenngochoan/picoctf/valley'
       Arch:     amd64-64-little
       RELRO:    Partial RELRO
       Stack:    Canary found
